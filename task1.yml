@@ -1,0 +1,8 @@
+---
+- name: Install zip and nginx
+  hosts: servers
+
+  tasks:
+  - name: Install zip and nginx
+    apt: name=nginx,zip state=present
+

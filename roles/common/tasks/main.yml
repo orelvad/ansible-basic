@@ -1,0 +1,4 @@
+---
+  - name: Install zip and nginx
+    apt: name=nginx,zip state=present
+
